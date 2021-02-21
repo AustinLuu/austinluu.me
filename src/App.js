@@ -3,7 +3,7 @@ import About from './components/About'
 const App = () =>{
   return (
     <div className="App">
-      <Header title = {"Austin Luu"}/>
+      <Header/>
       <About/>
     </div>
   )
