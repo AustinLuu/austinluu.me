@@ -1,3 +1,4 @@
+import React from 'react'
 import PropTypes from 'prop-types'
 
 const Header = () => {
@@ -5,8 +6,9 @@ const Header = () => {
         <header id='Header'>
             <div id ='landing-overlay'>
                 <h1>Hi!</h1>
-                <h1>I’m</h1>
-                <h1><span class="word col1">Austin.</span><span class="word col2">a student.</span><span class="word col3">an engineer.</span><span class="word col4">a power lifter.</span></h1>
+                <div class="rotating-text">
+                <h1>I’m <span class="word col1">Austin.</span><span class="word col2">a student.</span><span class="word col3">an engineer.</span><span class="word col4">an athlete.</span></h1>
+                </div>
                 <ul id='sub-nav'>
                     <li>
                         <a href='#about'>/about</a>
@@ -26,16 +28,15 @@ const Header = () => {
                 </ul>
             </div>
         </header>
-
     )
 }
 
 Header.defaultProps = {
-    title: "Austin"
+    trait: 'Austin.'
 }
 
 Header.propTypes = {
-    title: PropTypes.string
+    trait: PropTypes.string
 }
 
 export default Header
