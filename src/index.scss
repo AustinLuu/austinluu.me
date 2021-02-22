@@ -11,6 +11,9 @@ body {
   width: 100vw;
   overflow-x: hidden;
   background-color: var(--light);
+  display: block;
+  color: var(--gray);
+  font-family:'Source Sans Pro',sans-serif;
 }
 :root {
   --light: #faf8f8;
@@ -43,14 +46,12 @@ body {
 // Typography
 
 h1 {
-  font-family: 'Source Sans Pro';
   font-size: 4em;
   color: var(--dark);
   margin-bottom: 0;
 }
 
 h2 {
-  font-family: 'Source Sans Pro';
   font-size: 3em;
   color: var(--dark)
 }
@@ -68,7 +69,6 @@ a {
 }
 
 ul {
-  font-family: 'Source Sans Pro', sans-serif;
   margin-top: 0em;
   padding-left: 1.5em;
 }
@@ -76,7 +76,6 @@ ul {
 p, ul {
   display: block;
   color: var(--gray);
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 1.1em;
   line-height: 1.2;
 }
@@ -94,7 +93,7 @@ p, ul {
   transition: 300ms;
 }
 
-// Header
+//1.Header
 
 #Header{
   position: relative;
@@ -108,10 +107,11 @@ p, ul {
   background-color: #0000!important;
   top: 30%;
   height: 60%;
-  padding: 20px 20vw;
   display: block;
 }
-
+.lt-content-column {
+  padding: 10vh 20vw;
+}
 #sub-nav {
   list-style: none;
   padding-left: 0;
@@ -133,6 +133,7 @@ p, ul {
   width: 100vw;
   height: 100vh;
 }
+
 // cascade fade in
 #landing-overlay {
   & > h1 {
@@ -165,12 +166,12 @@ p, ul {
   filter: grayscale(10%);
   max-height: 256px;
   max-width: 100%;
-  border-radius: 5px;
+  border-radius: 128px;
   left: 0;
   top: 0;
 }
 
-/* Rotating Text CSS */
+// Rotating Text CSS
 .col1 {
   color: var(--dark)
 }
@@ -227,4 +228,63 @@ p, ul {
       }
     }
   }
+}
+
+//2.About
+.lt-flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.lt-flex-50 {
+  flex: 0 0 50%;
+}
+
+.lt-shadow {
+  box-shadow: 0 14px 28px rgba(27, 33, 48, 0.2), 0 10px 10px rgba(27, 33, 48, 0.05);
+}
+
+div>.highlight {
+  z-index: 5;
+  position: absolute;
+  top: 210px;
+  left: 50px;
+  padding: 0.8em;
+  border-radius: 4px;
+  color: #f8f8f2;
+  background-color: #282a36;
+  tab-size: 4;
+  width: auto;
+  overflow: auto;
+}
+.img-container {
+  position: relative;
+  margin-top: 1em;
+  margin-left: 3em;
+  min-height: 256px;
+}
+
+code {
+  &.number-bar > span{
+    margin-right: 0.4em;
+    padding: 0 0.4em 0 0.4em;
+    color: #7f7f7f;
+    display: block;
+  }
+  &.language-json > span{
+    &:nth-child(3n+2){
+      color: #ff79c6;
+      margin-left: 1.5em;
+    }
+    &:nth-child(3n){
+      color: #f1fa8c;
+    }
+    
+  }
+}
+
+//5.Footer
+.copyright{
+  display: block;
+  text-align: center;
 }
