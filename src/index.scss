@@ -5,10 +5,10 @@
   overflow-wrap: break-word;
 }
 html {
+  scroll-padding-top: 70px;
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
-  text-rendering: optimizelegibility;
-  
+  text-rendering: optimizelegibility; 
 }
 body {
   height: 100vh;
@@ -166,13 +166,14 @@ p, ul {
   position: absolute;
   opacity: .3;
   font-size: .8em;
+  padding-right: 0.5em;
   transition: opacity 2s cubic-bezier(0.25,0.8,0.25,1);
   transform-origin: top left;
   transform: translateX(-2em)rotateZ(90deg)rotateZ(180deg)translateX(-100%);
 }
 
 .lt-content-column {
-  padding: 10vh 20vw 5vh 20vw;
+  padding: 5vh 20vw;
 }
 #sub-nav {
   list-style: none;
@@ -338,8 +339,7 @@ code {
   font-family: 'Inter',-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   &>button{
     width: 100%;
-    border-color: var(--lightlightgray);
-    border-width: 2px 0 0 0;
+    border-width: 1px 0 0 0;
     border-radius: 0.375rem;
     border-style: solid;
     transition: all 0.2s;
@@ -403,9 +403,10 @@ button{
   font-size: 1.125rem;
   color: var(--light-blue);
   background-color: var(--light);
+  border-color: var(--outlinegray);
   outline:none;
   &:hover{
-    background-color: var(--lightlightgray);
+    background-color: var(--outlinegray);
     transition: background-color .8s;
   }
 }
