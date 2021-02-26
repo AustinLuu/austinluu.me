@@ -1,7 +1,14 @@
 @media screen and (max-width: 1440px){
-  #about .lt-flex-row {
-      flex-direction: column!important;
-  }
+    #about .lt-flex-row {
+        flex-direction: column!important;
+    }
+    .event-year>button{
+        padding: 0.75rem 0rem;
+
+    }
+    .event{
+        padding: 0.5rem 0rem 1rem 0.5rem;
+    }
 }
 @media all and (max-width: 725px) {
     .highlight{
@@ -13,6 +20,9 @@
     }
     h1 {
         font-size: 3em !important;
+    }
+    .lt-content-column {
+        padding: 2vh 20vw;
     }
 }
 @media all and (max-width: 450px) {
@@ -38,5 +48,8 @@
   
     #about, #timeline, #projects{
       padding: 0 5vw 30px 5vw !important;
+    }
+    .lt-content-column {
+        padding: 2vh 15vw;
     }
   }

@@ -56,12 +56,12 @@ const Timeline = () => {
     ])
 
     return (
-        <div className='lt-content-column' id='timeline' data-aos="fade-up"data-aos-duration="750"data-aos-easing="custom"data-aos-offset="100">
+        <div className='lt-content-column' id='timeline' data-aos="fade-up"data-aos-duration="750"data-aos-offset="100">
             <h2><span className="side-header">Timeline</span></h2>
             <Accordion defaultIndex={[0, 1, 2]} allowMultiple>
             {events.map(({year, items, open})=>
                 <AccordionItem>
-                <div className = 'event-year' data-aos="fade-up"data-aos-duration="750"data-aos-easing="custom"data-aos-offset="50">
+                <div className = 'event-year' data-aos="fade-up"data-aos-duration="750"data-aos-offset="50">
                 <AccordionButton ><h2>{year}</h2><AccordionIcon/></AccordionButton>
                 <AccordionPanel pb={4}>
                     {items.map(({title, text})=>

@@ -5,7 +5,7 @@
   overflow-wrap: break-word;
 }
 html {
-  scroll-padding-top: 70px;
+  scroll-padding-top: 156px; //56px for navbar + 100px for aos animations
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility; 
@@ -22,7 +22,7 @@ body {
 }
 :root {
   --light: #faf8f8;
-  --light-op: rgba(250,248,248,0.9);
+  --light-op: rgba(250,248,248,0.95);
   --dark: #141021;
   --light-blue: rgb(113, 128, 150);
   --navy: #284b63;
@@ -41,7 +41,7 @@ body {
 }
 [saved-theme="dark"] {
   --light: #1c1b22 !important;
-  --light-op: rgba(28,27,34,0.9) !important;
+  --light-op: rgba(28,27,34,0.95) !important;
   --dark: #fbfffe !important;
   --navy: #75a1bf !important;
   --olive: #84a59d !important;
@@ -166,14 +166,13 @@ p, ul {
   position: absolute;
   opacity: .3;
   font-size: .8em;
-  padding-right: 0.5em;
   transition: opacity 2s cubic-bezier(0.25,0.8,0.25,1);
   transform-origin: top left;
   transform: translateX(-2em)rotateZ(90deg)rotateZ(180deg)translateX(-100%);
 }
 
 .lt-content-column {
-  padding: 5vh 20vw;
+  padding: 5vh 25vw;
 }
 #sub-nav {
   list-style: none;
@@ -291,8 +290,9 @@ p, ul {
   box-shadow: 0 8px 28px rgba(27, 33, 48, 0.12), 2px 10px 10px rgba(27, 33, 48, 0.05);
 }
 .lt-card {
+  font-size: 1.05em;
   margin: 0 !important;
-  padding: 1em !important;
+  padding: 0.75em !important;
   background-color: var(--lightlightgray);
   border: 1px solid --lightgray;
   border-radius: 8px;
@@ -300,8 +300,8 @@ p, ul {
 div>.highlight {
   z-index: 5;
   position: absolute;
-  top: 210px;
-  left: 50px;
+  top: 195px;
+  left: 40px;
   padding: 0.7em;
   border-radius: 4px;
   color: #f8f8f2;
@@ -317,6 +317,7 @@ div>.highlight {
   min-height: 256px;
 }
 code {
+  font-size: 1.05em;
   &.number-bar > span{
     margin-right: 0.4em;
     padding: 0 0.4em 0 0.4em;
@@ -340,7 +341,7 @@ code {
   &>button{
     width: 100%;
     border-width: 1px 0 0 0;
-    border-radius: 0.375rem;
+    border-radius: 0.25rem;
     border-style: solid;
     transition: all 0.2s;
     outline: 0;
