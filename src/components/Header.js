@@ -6,8 +6,8 @@ const Header = () => {
         <header id='Header'>
             <div id ='landing-overlay' className = 'lt-content-column'>
                 <h1>Hi!</h1>
-                <div class="rotating-text">
-                <h1>I’m <span class="word col1">Austin.</span><span class="word col2">a student.</span><span class="word col3">an engineer.</span><span class="word col4">an athlete.</span></h1>
+                <div className="rotating-text">
+                <h1>I’m <span className="word col1">Austin.</span><span className="word col2">a student.</span><span className="word col3">an engineer.</span><span className="word col4">an athlete.</span></h1>
                 </div>
                 <ul id='sub-nav'>
                     <li>
@@ -17,7 +17,7 @@ const Header = () => {
                         <a href='#projects'>/projects</a>
                     </li>
                     <li>
-                        <a href='#experience'>/prev</a>
+                        <a href='#timeline'>/timeline</a>
                     </li>
                     <li>
                         <a href='#footer'>/contact</a>

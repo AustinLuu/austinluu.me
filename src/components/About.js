@@ -1,10 +1,8 @@
-import React from 'react'
-
 const About = () => {
     return (
         <div className='lt-content-column' id='about' data-aos="fade-up"data-aos-duration="750"data-aos-easing="custom"data-aos-offset="100">
             <h2><span className="side-header">About</span></h2>
-            <div className = 'lt-flex-row'>
+            <div className = 'lt-flex-row' style={{paddingBottom:"7vh"}}>
                 <div className = 'lt-flex-50 lt-card lt-shadow' data-aos="fade-up"data-aos-duration="750"data-aos-easing="custom"data-aos-offset="100">
                     <p>Welcome to my little corner of the internet! I’m Austin, a curious engineer interested in medical robotics, ml, and accessible tech — anything that can make technology work better for everyone. Currently, I'm based in Toronto, Canada studying Mechatronics Engineering <a href="https://www.ryerson.ca/programs/undergraduate/mechanical-engineering/">@ryu</a>. I also help build robots for exploring Mars as part of <a href="https://teamr3.ca/">@r3</a>.</p>
                     <br/>
@@ -21,6 +19,7 @@ const About = () => {
                 <div className = 'lt-flex-50 img-container'>
                     <img className='me lt-shadow' src='./static/spring-me.jpg' alt='Austin Luu'/>
                     <table className ='highlight lt-shadow'>
+                        <tbody>
                         <tr>
                             <td>
                                 <pre>
@@ -47,6 +46,7 @@ const About = () => {
                                 </pre>
                             </td>
                         </tr>
+                        </tbody>
                     </table>
                 </div>
             </div>
