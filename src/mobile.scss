@@ -30,7 +30,7 @@
 }
 @media all and (max-width: 450px) {
     h1 {
-      font-size: 2em !important;
+      font-size: 2.4em !important;
     }
     h3 {
       font-size: 1em !important;
@@ -38,16 +38,28 @@
     p {
       font-size: 1em !important;
     }
+    a{
+      font-size: smaller;
+    }
     .highlight{
-      position: relative;
-      padding: 2px!important;
-      font-size:xx-small!important;;
+      position: sticky;
+      display: block;
+      padding: 2px 4px!important;
+      font-size:x-small!important;
+      -moz-tab-size:4;
+      -o-tab-size:4;
+      tab-size:4;
+      width: 100%;
+      top: 220px;
     }
     .side-header{
       position: relative;
     }
     .lt-content-column {
-      padding: 2vh 15vw;
+      padding: 2vh 10vw;
+    }
+    #landing-overlay{
+      padding-right: 0vw;
     }
     .nav-item {
       margin: 12px 10px;
