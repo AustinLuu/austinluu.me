@@ -47,18 +47,18 @@ const Timeline = () => {
             year: 2019,
             open: true,
             items:[
-                {
-                    title: 'Lead Web Developer @ RU K-POP',
-                    text: '',
-                },
+                // {
+                //     title: 'Lead Web Developer @ RU K-POP',
+                //     text: '',
+                // },
                 {
                     title: 'Product Data Analyst Intern @ Celestica',
                     text: 'Developed VBA macros for consolidating and analyzing: team performance metric reports and customer BOMs for product management.',
-                },
-                {
-                    title: 'Lead Web Developer @ Ryerson Rams Robotics',
-                    text: '',
-                }
+                }//,
+                // {
+                //     title: 'Lead Web Developer @ Ryerson Rams Robotics',
+                //     text: '',
+                // }
             ]
         },
     ])
