@@ -10,7 +10,7 @@
         padding: 0.5rem 0rem 1rem 0.5rem;
     }
 }
-@media all and (max-width: 725px) {
+@media all and (max-width: 750px) {
     .highlight{
         left: 0px!important;
         font-size: smaller!important;
@@ -26,30 +26,27 @@
     }
 }
 @media all and (max-width: 450px) {
-    .mobile-only {
-      display: inline-block !important;
-    }
-  
     h1 {
       font-size: 2em !important;
     }
-  
     h3 {
       font-size: 1em !important;
     }
-  
     p {
       font-size: 1em !important;
     }
-  
-    .mobile-hide {
-      display: None !important;
+    .highlight{
+      position: relative;
+      padding: 2px!important;
+      font-size:xx-small!important;;
     }
-  
-    #about, #timeline, #projects{
-      padding: 0 5vw 30px 5vw !important;
+    .side-header{
+      position: relative;
     }
     .lt-content-column {
-        padding: 2vh 15vw;
+      padding: 2vh 15vw;
+    }
+    .nav-item {
+      margin: 12px 10px;
     }
   }
