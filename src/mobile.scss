@@ -24,6 +24,9 @@
     .lt-content-column {
         padding: 2vh 20vw;
     }
+    #about,#timeline{
+      overflow-x: hidden;
+    }
 }
 @media all and (max-width: 450px) {
     h1 {
