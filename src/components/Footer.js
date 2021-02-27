@@ -15,7 +15,7 @@ const Footer = () => {
                 <a target="_blank"rel="noopener noreferrer" href="mailto:austinowenluu@gmail.com"><button><HiOutlineMail/></button></a>
                 <a target="_blank"rel="noopener noreferrer" href="./static/Austin_Luu_Resume_2021_C_V1.pdf"><button><IoNewspaperOutline/></button></a>
             </div>
-            Designed and <a href="https://github.com/AustinLuu/austinluu.me" rel="noopener noreferrer" target="_blank" style={{fontWeight: "600", textDecoration:"none"}}>developed</a> with ☕️ &amp; ❤️ by Austin Luu © 2021.
+            Designed and <a href="https://github.com/AustinLuu/austinluu.me" rel="noopener noreferrer" target="_blank" style={{fontWeight: "600", textDecoration:"none"}}>developed</a> with <span style={{whiteSpace:"nowrap"}}>☕️ &amp; ❤️ by Austin Luu © 2021.</span> 
             </div>
         </footer>
     )
