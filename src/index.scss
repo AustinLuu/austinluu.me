@@ -5,14 +5,15 @@
   overflow-wrap: break-word;
 }
 html {
+  width: 100%;
   scroll-padding-top: 156px; //56px for navbar + 100px for aos animations
   scroll-behavior: smooth;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizelegibility; 
 }
 body {
+  overflow-x: hidden;
   height: 100vh;
-  width: 100vw;
   background-color: var(--light);
   display: block;
   color: var(--gray);
