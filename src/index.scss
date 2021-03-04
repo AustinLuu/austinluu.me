@@ -245,9 +245,6 @@ p, ul {
   opacity: 0;
   animation-fill-mode: forwards;
   animation-delay: 0.8s;
-  @media all and (max-width: 450px) {
-    height: 2.4em;
-  }
   & > h1 {
     display: inline-flex;
     & > .word {
@@ -255,8 +252,7 @@ p, ul {
       display: flex;
       opacity: 0;
       overflow: hidden;
-      padding-bottom: 0.12em;
-      padding-left: 1.70em;
+      padding-left: 1.7em;
       & > .letter {
         transform-origin: center center 0.8em;
       }
