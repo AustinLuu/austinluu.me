@@ -27,6 +27,20 @@ const Projects = () => {
             ]
         },
         {
+            title: 'iCal',
+            year: 2021,
+            brief: 'image to Google calendar events',
+            description: 'iCal is a web app which deciphers images into google calendar events. Using Google\'s Cloud Vision API and OCR technology, iCal takes images of events (think poster or webpage screenshot) to create an event in your Google Calendar with the correct title, date, and description. In the future I hope to build this into a Chrome extension for acessibility and quality of life usage.',
+            tools: [
+                {text: 'Google Cloud Vision API'},
+                {text: 'Google Calendar API'},
+                {text: 'JavaScript'},
+                {text: 'Node.js'},
+                {text: 'Discord.js'},
+                {text: 'CSS'},
+            ]
+        },
+        {
             title: 'Portable Machine Shop',
             year: 2021,
             brief: 'a portable accessible machine shop',
@@ -116,10 +130,20 @@ const Projects = () => {
             ]
         },
         {
+            title: 'UFbOat',
+            year: 2017,
+            brief: 'a maritime life support system',
+            description: 'UFbOat is an enclosed lifeboat developed for emergency life support and rescue in the Carribean sea capable of fitting eigth adults. Designed for small scale usage on medium sized boats.',
+            tools: [
+                {text: 'SolidWorks'},
+                {text: 'FMEA'}
+            ]
+        },
+        {
             title: 'Personal Website',
             year: 2021,
             brief: 'the thing you\'re on right now',
-            description: 'Decided my portfolio needed an upgrade. Built this website using a variety of tools I was interested in learning at the time including React, Chakra UI, and AOS. Yep, surprisingly this is my first React website!',
+            description: 'Decided my portfolio needed an upgrade. Built this website using a variety of tools I was interested in learning at the time including React, Chakra UI, SASS, and AOS. Yep, surprisingly this is my first React website!',
             tools: [
                 {text: 'React'},
                 {text: 'Chakra UI'},
