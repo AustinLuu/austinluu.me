@@ -57,6 +57,11 @@
     }
     .side-header{
       position: relative;
+      &::before {
+        transform: translateY(-0.2em);
+        left: calc(100% + 0.5em);
+        max-width: 40vw;
+      }
     }
     .lt-content-column {
       padding: 2vh 10vw;
