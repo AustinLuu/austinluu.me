@@ -32,10 +32,10 @@
       overflow-x: hidden;
     }
     .project-highlight>p>b{
-      font-size: 0.8em;
+      font-size: 0.85em;
     }
     .project-text{
-      font-size: 0.8em;
+      font-size: 0.85em;
     }
 }
 @media all and (max-width: 450px) {
@@ -66,5 +66,8 @@
     }
     .nav-item {
       margin: 12px 10px;
+    }
+    .project{
+      padding: 0.8em!important;
     }
   }
