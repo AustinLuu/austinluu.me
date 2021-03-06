@@ -31,6 +31,12 @@
     #about,#timeline{
       overflow-x: hidden;
     }
+    .project-highlight>p>b{
+      font-size: 0.8em;
+    }
+    .project-text{
+      font-size: 0.8em;
+    }
 }
 @media all and (max-width: 450px) {
     h1 {
