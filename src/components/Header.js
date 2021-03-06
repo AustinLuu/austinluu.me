@@ -3,7 +3,7 @@ import PropTypes from 'prop-types'
 
 const Header = () => {
     return (
-        <header id='Header'>
+        <header id='header'>
             <div id ='landing-overlay' className = 'lt-content-column'>
                 <h1>Hi!</h1>
                 <div className="rotating-text">

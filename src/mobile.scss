@@ -1,5 +1,5 @@
 @media screen and (max-width: 1440px){
-    #about .lt-flex-row {
+    #about, #about>.lt-flex-row {
         flex-direction: column!important;
     }
     .event-year>button{
@@ -8,6 +8,11 @@
     }
     .event{
         padding: 0.5rem 0rem 1rem 0.5rem;
+    }
+    .project-highlight{
+      &>p:nth-child(2){
+        display: none;
+      }
     }
 }
 @media all and (max-width: 750px) {

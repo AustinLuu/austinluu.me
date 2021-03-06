@@ -13,7 +13,6 @@ const Timeline = () => {
     const [events] = useState([
         {
             year: 2021,
-            open: true,
             items:[
                 {
                     title: 'Product Data Analyst @ Celestica',
@@ -27,7 +26,6 @@ const Timeline = () => {
         },
         {
             year: 2020,
-            open: true,
             items:[
                 {
                     title: 'Research Assistant  @ Ryerson University',
@@ -45,7 +43,6 @@ const Timeline = () => {
         },
         {
             year: 2019,
-            open: true,
             items:[
                 // {
                 //     title: 'Lead Web Developer @ RU K-POP',
