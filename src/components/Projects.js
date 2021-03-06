@@ -42,7 +42,7 @@ const Projects = () => {
             title: 'iTest',
             year: 2020,
             brief: 'a commercial helmet factor of safety testing machine',
-            description: 'Designed a helmet factor of safety testing machine capable of impactin helmets at 28m/s with a force of 60N across six impact locations using three pneumatic piston end effector mechanisms. Designed custom cam followers and pawl & ratchet mechanisms. Simulated designs using SolidWorks motion analysis and OMRON PLC utilizing PLC fiddle ladder logic software for pneumatic testing.',
+            description: 'Designed a helmet factor of safety testing machine capable of impacting helmets at 28m/s with a force of 60N across six impact locations using three pneumatic piston end effector mechanisms. Designed custom cam followers and pawl & ratchet mechanisms. Simulated designs using SolidWorks motion analysis and OMRON PLC utilizing PLC fiddle ladder logic software for pneumatic testing.',
             tools: [
                 {text: 'SolidWorks'},
                 {text: 'Ladder Logic'},
@@ -76,7 +76,7 @@ const Projects = () => {
             title: 'Parallel Drone Swam',
             year: 2018,
             brief: 'an IoT disaster rescue drone network',
-            description: 'Built two IoT enabled ground drones communicating using MQTT protocol for PennApps XVII. The two ground drones collect thermal, moisture, and relative location data for autonomous 2D environment mapping. Build with the attempt at targeting disaster relief and search and rescue.',
+            description: 'Built two IoT enabled ground drones communicating using MQTT protocol for PennApps XVII. The two ground drones collect thermal, moisture, and relative location data for autonomous 2D environment mapping. Build with the attempt at targeting disaster relief and search & rescue.',
             tools: [
                 {text: 'Python'},
                 {text: 'C++'},
@@ -92,7 +92,7 @@ const Projects = () => {
             title: 'BioArm',
             year: 2018,
             brief: 'a 15 degree of freedom bionic arm',
-            description: 'Designed and fabricated a bionic arm assembly offering 15 degrees of freedom (3 DOF across each finger). Manufcatured the design in under $140 as a proof of concept to further the field of bio-mechanics in hope of making prosthetics more accessible and versatile in the future.',
+            description: 'Designed and fabricated a bionic arm assembly offering 15 degrees of freedom (3 DOF across each finger). Manufcatured the design in under $150 as a proof of concept to further the field of bio-mechanics in hope of making prosthetics more accessible and versatile in the future.',
             tools: [
                 {text: 'C++'},
                 {text: 'Arduino'},
@@ -107,12 +107,25 @@ const Projects = () => {
             title: 'Vision Motion',
             year: 2017,
             brief: 'kinematic motion analysis learning tool',
-            description: 'Deployed a kinematic motion tracking app on teh Google Play Store with 2190+ total installs. The app leverages OpenCV for real-time computer vision to track motion of objects to render downloadable CSV graphs of its position, velocity, and acceleration. Designed in hope of making higher education experimentation more accesibble.',
+            description: 'Deployed a kinematic motion tracking app on the Google Play Store with 2190+ total installs. The app leverages OpenCV for real-time computer vision to track motion of objects to render downloadable CSV graphs of its position, velocity, and acceleration. Designed in hope of making higher education experimentation more accessible.',
             tools: [
                 {text: 'Android'},
                 {text: 'OpenCV'},
                 {text: 'Java'},
                 {text: 'GraphQL'}
+            ]
+        },
+        {
+            title: 'Personal Website',
+            year: 2021,
+            brief: 'the thing you\'re on right now',
+            description: 'Decided my portfolio needed an upgrade. Built this website using a variety of tools I was interested in learning at the time including React, Chakra UI, and AOS. Yep, surprisingly this is my first React website!',
+            tools: [
+                {text: 'React'},
+                {text: 'Chakra UI'},
+                {text: 'JavaScript'},
+                {text: 'CSS'},
+                {text: 'AOS'}
             ]
         },
     ])

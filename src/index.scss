@@ -345,6 +345,7 @@ code {
 .project-highlight{
   width: 100%;
   &>p>b{
+    padding-right: 0.3em;
     font-weight: 600;
     color: var(--dark); 
   }
