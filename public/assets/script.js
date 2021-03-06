@@ -1,3 +1,7 @@
+document.getElementById('themeSwitch').addEventListener('change', function(event){
+  (event.target.checked) ? document.body.setAttribute('saved-theme', 'dark') : document.body.removeAttribute('saved-theme');
+});
+
 function random(low, high) { return Math.random() * (high - low) + low }
 class Visual {
   constructor(particles, yVariance, maxParticleRadius) {

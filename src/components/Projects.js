@@ -24,7 +24,9 @@ const Projects = () => {
                 {text: 'JavaScript'},
                 {text: 'Node.js'},
                 {text: 'Discord.js'}
-            ]
+            ],
+            github: 'https://github.com/SherRao/HackTheNorth2020-',
+            devpost: 'https://devpost.com/software/karaokebot',
         },
         {
             title: 'iCal',
@@ -162,18 +164,18 @@ const Projects = () => {
                 
                 <div className = 'project lt-shadow' data-aos="fade-left"data-aos-duration="750"data-aos-offset="200">
                 <AccordionItem>
-                <AccordionButton className='project-btn'><div className="project-highlight lt-flex-row"><p><b>{title}</b></p><p> — {brief}</p><AccordionIcon/></div></AccordionButton>
+                <AccordionButton className='project-btn' ><div className="project-highlight lt-flex-row"><p><b>{title}</b></p><p> — {brief}</p><AccordionIcon/></div></AccordionButton>
                 <AccordionPanel pb={4}>
-                    {
+                    
                         <div className ='project-text'>
                             <p>{description}</p>
-                            <ul>
+                            <ul className = "tools">
                             {tools.map(({text})=>
                                 <li>{text}</li>
                             )}  
                             </ul>
                         </div>
-                    }
+                    
                 </AccordionPanel>
                 </AccordionItem>
                 </div>

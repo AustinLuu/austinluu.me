@@ -28,8 +28,8 @@
     .lt-content-column {
         padding: 2vh 20vw;
     }
-    #about,#timeline{
-      overflow-x: hidden;
+    #about,#projects,#timeline{
+      overflow-x: hidden!important;
     }
     .project-highlight>p>b{
       font-size: 0.85em;
