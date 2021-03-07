@@ -73,6 +73,7 @@ const Projects = () => {
             tools: [
                 {text: 'iOS'},
                 {text: 'Swift'},
+                {text: 'Figma'},
                 {text: 'Voiceflow'},
                 {text: 'ResNet50'}
             ]
@@ -118,6 +119,20 @@ const Projects = () => {
                 {text: 'Laser Cutting'},
                 {text: '3D Printing'}
             ]
+        },
+        {
+            title: 'Greeco',
+            year: 2018,
+            brief: 'a crowd sourced approach towards environmental cleanliness',
+            description: 'Greeco is a web application that allows users to rate and visualize a \'cleanliness\' overlay of their local surroundings. Greeco acts as a crowd sourced approach to identify problematic areas whilst raising awarness and organizing cleanup events in local communities.',
+            tools: [
+                {text: 'Python'},
+                {text: 'Django'},
+                {text: 'JavaScript'},
+                {text: 'CSS'},
+                {text: 'Bootstrap'},
+                {text: 'Google Maps API'},
+            ],
         },
         {
             title: 'Vision Motion',
