@@ -66,7 +66,7 @@ const Projects = () => {
             ]
         },
         {
-            title: 'MiMelons',
+            title: 'Mi Melons',
             year: 2019,
             brief: 'an iOS + Voiceflow breast examination app',
             description: 'An app that guides women through their monthly breast exam to check for lumps and irregularities. Users are able to track their past exams and symptoms. Developed for Hack the North 2019.',
@@ -93,7 +93,7 @@ const Projects = () => {
             title: 'Parallel Drone Swam',
             year: 2018,
             brief: 'an IoT disaster rescue drone network',
-            description: 'Built two IoT enabled ground drones communicating using MQTT protocol for PennApps XVII. The two ground drones collect thermal, moisture, and relative location data for autonomous 2D environment mapping. Build with the attempt at targeting disaster relief and search & rescue.',
+            description: 'Built two IoT enabled ground drones communicating using MQTT protocol for PennApps XVII. The two ground drones collect thermal, moisture, and relative location data for autonomous 2D environment mapping. Built with the attempt at targeting disaster relief and search & rescue.',
             tools: [
                 {text: 'Python'},
                 {text: 'C++'},
@@ -109,7 +109,7 @@ const Projects = () => {
             title: 'BioArm',
             year: 2018,
             brief: 'a 15 degree of freedom bionic arm',
-            description: 'Designed and fabricated a bionic arm assembly offering 15 degrees of freedom (3 DOF across each finger). Manufcatured the design in under $150 as a proof of concept to further the field of bio-mechanics in hope of making prosthetics more accessible and versatile in the future.',
+            description: 'Designed and fabricated a bionic arm assembly offering 15 degrees of freedom (3 DOF across each finger). Manufactured the design in under $150 as a proof of concept to further the field of bio-mechanics in hope of making prosthetics more accessible and versatile in the future.',
             tools: [
                 {text: 'C++'},
                 {text: 'Arduino'},
@@ -150,7 +150,7 @@ const Projects = () => {
             title: 'UFbOat',
             year: 2017,
             brief: 'a maritime life support system',
-            description: 'UFbOat is an enclosed lifeboat developed for emergency life support and rescue in the Carribean sea capable of fitting eigth adults. Designed for small scale usage on medium sized boats.',
+            description: 'UFbOat is an enclosed lifeboat developed for emergency life support and rescue in the Carribean sea capable of fitting eight adults. Designed for small scale usage on medium sized boats.',
             tools: [
                 {text: 'SolidWorks'},
                 {text: 'FMEA'}
