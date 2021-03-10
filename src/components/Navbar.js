@@ -7,9 +7,9 @@ const Navbar = () => {
             </div>
             
             <ul className = "nav-wrapper">
-                <li className ="nav-item"><a href="#header"><span>portfolio.</span></a></li>
+                {/* <li className ="nav-item"><a href="#header"><span>portfolio.</span></a></li>
                 <li className ="nav-item"><a href="#gallery"><span>gallery.</span></a></li>
-                <li className ="nav-item"><a href="#blog"><span></span>blog.</a></li>
+                <li className ="nav-item"><a href="#blog"><span></span>blog.</a></li> */}
             </ul>
         </nav>
     )
