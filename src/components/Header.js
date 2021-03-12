@@ -9,7 +9,7 @@ const Header = () => {
                 <div className="rotating-text">
                 <h1>I’m <span className="word col1">Austin.</span><span className="word col2">a student.</span><span className="word col3">an engineer.</span><span className="word col4">an athlete.</span></h1>
                 </div>
-                <ul id='sub-nav'>
+                <ul className='sub-nav'>
                     <li>
                         <a href='#about'>/about</a>
                     </li>

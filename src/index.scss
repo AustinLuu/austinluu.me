@@ -188,16 +188,15 @@ p, ul {
       width: 180px;
   }
 }
-#sub-nav {
+.sub-nav {
   list-style: none;
   padding-left: 0;
   margin: 0;
 }
-#sub-nav>li {
+.sub-nav>li {
   display: inline-block;
   font-family: roboto mono,monospace;
   font-size: 1em;
-  padding-top: .5em;
   font-weight: 400;
   color: var(--dark);
   padding-right: .5em;
@@ -381,10 +380,10 @@ code {
 }
 .project-text{
   &>p{
-    padding: 1em 0em;
+    padding: 1em 0em 0em 0em;
   }
   &>.tools{
-    padding: 0;
+    padding: 1em 0em 0em 0em;
     &>li{
       font-size: 0.85em;
       display: inline-block;

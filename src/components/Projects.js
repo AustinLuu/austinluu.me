@@ -175,7 +175,7 @@ const Projects = () => {
         <div className='lt-content-column' id='projects' data-aos="fade-up"data-aos-duration="750"data-aos-easing="custom"data-aos-offset="100">
             <h2><span className="side-header">Projects</span></h2>
             <Accordion allowToggle>
-            {projects.map(({title, brief, description,tools})=>
+            {projects.map(({title, brief, description, tools, github, devpost, website})=>
                 
                 <div className = 'project lt-shadow' data-aos="fade-left"data-aos-duration="750"data-aos-offset="200">
                 <AccordionItem>
@@ -184,6 +184,11 @@ const Projects = () => {
                     
                         <div className ='project-text'>
                             <p>{description}</p>
+                            <ul className='sub-nav' style={{fontSize:'0.9em'}}>
+                                {github?<li><a href={github}>/github</a></li>:null}
+                                {devpost?<li><a href={devpost}>/devpost</a></li>:null}
+                                {website?<li><a href={website}>/website</a></li>:null}
+                            </ul>
                             <ul className = "tools">
                             {tools.map(({text})=>
                                 <li>{text}</li>
