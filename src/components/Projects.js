@@ -40,7 +40,9 @@ const Projects = () => {
                 {text: 'Node.js'},
                 {text: 'Discord.js'},
                 {text: 'CSS'},
-            ]
+            ],
+            github: 'https://github.com/AustinLuu/yuHacks',
+            devpost: 'https://devpost.com/software/image-to-google-calendar-event',
         },
         {
             title: 'Portable Machine Shop',
@@ -76,7 +78,9 @@ const Projects = () => {
                 {text: 'Figma'},
                 {text: 'Voiceflow'},
                 {text: 'ResNet50'}
-            ]
+            ],
+            github: 'https://github.com/AustinLuu/mi-melons',
+            devpost: 'https://devpost.com/software/mi-melons',
         },
         {
             title: 'RU K-POP',
@@ -87,7 +91,9 @@ const Projects = () => {
                 {text: 'JavaScript'},
                 {text: 'CSS'},
                 {text: 'Google Maps API'}
-            ]
+            ],
+            github: 'https://github.com/AustinLuu/rukpop',
+            website: 'http://rukpop.com/index.html',
         },
         {
             title: 'Parallel Drone Swam',
@@ -103,7 +109,8 @@ const Projects = () => {
                 {text: 'SolidWorks'},
                 {text: 'Laser Cutting'},
                 {text: '3D Printing'}
-            ]
+            ],
+            devpost: 'https://devpost.com/software/drone-swarm',
         },
         {
             title: 'BioArm',
@@ -133,6 +140,7 @@ const Projects = () => {
                 {text: 'Bootstrap'},
                 {text: 'Google Maps API'},
             ],
+            github: 'https://github.com/AustinLuu/waste_detect',
         },
         {
             title: 'Vision Motion',
@@ -144,7 +152,10 @@ const Projects = () => {
                 {text: 'OpenCV'},
                 {text: 'Java'},
                 {text: 'GraphQL'}
-            ]
+            ],
+            github: 'https://github.com/AustinLuu/waste_detect',
+            devpost: 'https://devpost.com/software/visionmotion',
+            website: 'https://visionmotion.williamqin.com/',
         },
         {
             title: 'UFbOat',
@@ -167,7 +178,9 @@ const Projects = () => {
                 {text: 'JavaScript'},
                 {text: 'CSS'},
                 {text: 'AOS'}
-            ]
+            ],
+            github: 'https://github.com/AustinLuu/austinluu.me',
+            website: 'https://austinluu.me/',
         },
     ])
 
@@ -185,9 +198,9 @@ const Projects = () => {
                         <div className ='project-text'>
                             <p>{description}</p>
                             <ul className='sub-nav' style={{fontSize:'0.9em'}}>
-                                {github?<li><a href={github}>/github</a></li>:null}
-                                {devpost?<li><a href={devpost}>/devpost</a></li>:null}
-                                {website?<li><a href={website}>/website</a></li>:null}
+                                {github?<li><a target="_blank" rel="noopener noreferrer" href={github}>/github</a></li>:null}
+                                {devpost?<li><a target="_blank" rel="noopener noreferrer" href={devpost}>/devpost</a></li>:null}
+                                {website?<li><a target="_blank" rel="noopener noreferrer" href={website}>/website</a></li>:null}
                             </ul>
                             <ul className = "tools">
                             {tools.map(({text})=>
