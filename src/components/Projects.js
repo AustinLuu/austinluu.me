@@ -9,21 +9,21 @@ import {
 } from '@chakra-ui/react';
 
 const Container = styled.div`
-    display: flex;
-    &:after{
-        content: "";
-        background-repeat: no-repeat;
-        flex: 0 0 30%;
-        background-size: auto 100%;
-        background-position: center;
-        background-image: url('${props => props.img}');
-    }
-    & .project-text{
-        flex: 0 0 70%;
-    }
-    @media (max-width: 1300px) {
-    flex-direction: column !important;
-    }
+    // display: flex;
+    // &:after{
+    //     content: "";
+    //     background-repeat: no-repeat;
+    //     flex: 0 0 30%;
+    //     background-size: auto 100%;
+    //     background-position: center;
+    //     background-image: url('${props => props.img}');
+    // }
+    // & .project-text{
+    //     flex: 0 0 70%;
+    // }
+    // @media (max-width: 1300px) {
+    // flex-direction: column !important;
+    // }
 `;
 
 const Projects = () => {
