@@ -1,13 +1,30 @@
 import {useState} from 'react'
+import styled from 'styled-components'
 import {
     Accordion,
     AccordionItem,
     AccordionButton,
     AccordionIcon,
-    AccordionPanel,
-    Badge
+    AccordionPanel
 } from '@chakra-ui/react';
 
+const Container = styled.div`
+    display: flex;
+    &:after{
+        content: "";
+        background-repeat: no-repeat;
+        flex: 0 0 30%;
+        background-size: auto 100%;
+        background-position: center;
+        background-image: url('${props => props.img}');
+    }
+    & .project-text{
+        flex: 0 0 70%;
+    }
+    @media (max-width: 1300px) {
+    flex-direction: column !important;
+    }
+`;
 
 const Projects = () => {
     //projects
@@ -81,6 +98,7 @@ const Projects = () => {
             ],
             github: 'https://github.com/AustinLuu/mi-melons',
             devpost: 'https://devpost.com/software/mi-melons',
+            image: './static/mimelons.png'
         },
         {
             title: 'RU K-POP',
@@ -188,13 +206,14 @@ const Projects = () => {
         <div className='lt-content-column' id='projects' data-aos="fade-up"data-aos-duration="750"data-aos-easing="custom"data-aos-offset="100">
             <h2><span className="side-header">Projects</span></h2>
             <Accordion allowToggle>
-            {projects.map(({title, brief, description, tools, github, devpost, website})=>
+            {projects.map(({title, brief, description, tools, github, devpost, website, image})=>
                 
                 <div className = 'project lt-shadow' data-aos="fade-left"data-aos-duration="750"data-aos-offset="200">
                 <AccordionItem>
                 <AccordionButton className='project-btn' ><div className="project-highlight lt-flex-row"><p><b>{title}</b></p><p> — {brief}</p><AccordionIcon/></div></AccordionButton>
                 <AccordionPanel pb={4}>
                     
+                <Container img={image}>
                         <div className ='project-text'>
                             <p>{description}</p>
                             <ul className='sub-nav' style={{fontSize:'0.9em'}}>
@@ -209,6 +228,7 @@ const Projects = () => {
                             </ul>
                         </div>
                     
+                </Container>
                 </AccordionPanel>
                 </AccordionItem>
                 </div>
