@@ -3,7 +3,7 @@ const Navbar = () => {
         <nav id="navbar">
             <div href="#header">
                 <input id="themeSwitch"type="checkbox" style={{display: 'none'}}/>
-                <label for="themeSwitch"><img className ="logo" src="./logo-large.png" alt="logo"/></label>
+                <label for="themeSwitch"><img className ="logo" src="./logo.png" alt="logo"/></label>
             </div>
             
             <ul className = "nav-wrapper">
