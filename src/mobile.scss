@@ -37,6 +37,9 @@
     .project-text{
       font-size: 0.85em;
     }
+    .sub-nav>li:nth-child(4){
+      display: none;
+    }
 }
 @media all and (max-width: 450px) {
     h1 {

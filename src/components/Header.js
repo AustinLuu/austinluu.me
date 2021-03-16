@@ -19,6 +19,9 @@ const Header = () => {
                     <li>
                         <a href='#timeline'>/timeline</a>
                     </li>
+                    <li>
+                        <a href="#footer">/contact</a>
+                    </li>
                 </ul>
             </div>
         </header>

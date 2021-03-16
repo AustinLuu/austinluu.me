@@ -5,7 +5,7 @@ import { IoNewspaperOutline } from "react-icons/io5";
 const Footer = () => {
     return (
         <footer id ="footer">
-            <div data-aos="fade-up"data-aos-duration="750"data-aos-offset="100" className = 'lt-content-column copyright' >
+            <div className = 'lt-content-column copyright' >
             <img src="./static/roll.gif" alt="roll gif" style={{width: "256px"}}/>
             <br/>
             <div className="button-container">
