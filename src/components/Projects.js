@@ -194,6 +194,7 @@ const Projects = () => {
                 {text: 'React'},
                 {text: 'Chakra UI'},
                 {text: 'JavaScript'},
+                {text: 'styled-components'},
                 {text: 'CSS'},
                 {text: 'AOS'}
             ],
