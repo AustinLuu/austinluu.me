@@ -196,6 +196,7 @@ const Projects = () => {
                 {text: 'JavaScript'},
                 {text: 'styled-components'},
                 {text: 'CSS'},
+                {text: 'SASS'},
                 {text: 'AOS'}
             ],
             github: 'https://github.com/AustinLuu/austinluu.me',
