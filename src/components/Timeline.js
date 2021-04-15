@@ -16,7 +16,7 @@ const Timeline = () => {
             items:[
                 {
                     title: 'Product Data Analyst @ Celestica',
-                    text: 'Developed feed forward neural network for predicting electrical component pricing based on description.',
+                    text: 'Developing a feed forward neural network for predicting electrical component pricing based on description.',
                 },
                 {
                     title: 'URC Mechanical Science Co-lead @ Ryerson Rams Robotics',
