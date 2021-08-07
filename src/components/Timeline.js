@@ -15,6 +15,10 @@ const Timeline = () => {
             year: 2021,
             items:[
                 {
+                    title: 'Process Engineer @ AlphaPoly',
+                    text: 'Developing sustainable packaging solutions and improving machine manufacturing speeds.',
+                },
+                {
                     title: 'Product Data Analyst @ Celestica',
                     text: 'Developing a feed forward neural network for predicting electrical component pricing based on description.',
                 },
