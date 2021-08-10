@@ -16,7 +16,7 @@ const Timeline = () => {
             items:[
                 {
                     title: 'Process Engineer @ AlphaPoly',
-                    text: 'Developing sustainable packaging solutions and improving machine manufacturing speeds.',
+                    text: 'Developing sustainable packaging solutions to reduce GHG emissions for plastic converting.',
                 },
                 {
                     title: 'Product Data Analyst @ Celestica',
