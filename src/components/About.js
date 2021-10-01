@@ -30,6 +30,7 @@ const About = () => {
                                         <span>4</span>
                                         <span>5</span>
                                         <span>6</span>
+                                        <span>7</span>
                                     </code>
                                 </pre>
                             </td>

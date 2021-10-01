@@ -190,7 +190,7 @@ const Projects = () => {
         <div className='lt-content-column' id='projects' data-aos="fade-up"data-aos-duration="750"data-aos-easing="custom"data-aos-offset="100">
             <h2><span className="side-header">Projects</span></h2>
             <Accordion allowToggle>
-            {projects.map(({title, brief, description, tools, github, devpost, website, image})=>
+            {projects.slice(0,projects.length-7).map(({title, brief, description, tools, github, devpost, website, image})=>
                 
                 <div className = 'project lt-shadow' data-aos="fade-left"data-aos-duration="750"data-aos-offset="200">
                 <AccordionItem>
@@ -210,11 +210,42 @@ const Projects = () => {
                             )}  
                             </ul>
                         </div>
-                    
+                        
                 </AccordionPanel>
                 </AccordionItem>
                 </div>
             )}
+            {/* <AccordionItem>
+            <AccordionButton className='project-btn' ><div className="project-highlight lt-flex-row"><p><b>hi</b></p><p> — bye</p><AccordionIcon/></div></AccordionButton>
+            <AccordionPanel pb={4}>
+            {projects.slice(0,projects.length-7).map(({title, brief, description, tools, github, devpost, website, image})=>
+                
+                <div className = 'project lt-shadow' data-aos="fade-left"data-aos-duration="750"data-aos-offset="200">
+                <AccordionItem>
+                <AccordionButton className='project-btn' ><div className="project-highlight lt-flex-row"><p><b>{title}</b></p><p> — {brief}</p><AccordionIcon/></div></AccordionButton>
+                <AccordionPanel pb={4}>
+                    
+                        <div className ='project-text'>
+                            <p>{description}</p>
+                            <ul className='sub-nav' style={{fontSize:'0.9em'}}>
+                                {github?<li><a target="_blank" rel="noopener noreferrer" href={github}>/github</a></li>:null}
+                                {devpost?<li><a target="_blank" rel="noopener noreferrer" href={devpost}>/devpost</a></li>:null}
+                                {website?<li><a target="_blank" rel="noopener noreferrer" href={website}>/website</a></li>:null}
+                            </ul>
+                            <ul className = "tools">
+                            {tools.map(({text})=>
+                                <li>{text}</li>
+                            )}  
+                            </ul>
+                        </div>
+                        
+                </AccordionPanel>
+                </AccordionItem>
+                </div>
+            )}
+            </AccordionPanel>
+            </AccordionItem> */}
+
             </Accordion>
         </div>
     )
