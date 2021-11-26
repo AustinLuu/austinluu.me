@@ -245,6 +245,7 @@ const Projects = () => {
                 <AccordionPanel pb={4}>
                     
 <<<<<<< HEAD
+<<<<<<< HEAD
                         <div className ='project-text'>
                             <p>{description}</p>
                             <ul className='sub-nav' style={{fontSize:'0.9em'}}>
@@ -259,6 +260,9 @@ const Projects = () => {
                             </ul>
                         </div>
                         
+=======
+                </Container>
+>>>>>>> parent of 8f20566 (removed redundencies)
 =======
                 </Container>
 >>>>>>> parent of 8f20566 (removed redundencies)
