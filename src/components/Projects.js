@@ -8,6 +8,24 @@ import {
     AccordionPanel
 } from '@chakra-ui/react';
 
+const Container = styled.div`
+    // display: flex;
+    // &:after{
+    //     content: "";
+    //     background-repeat: no-repeat;
+    //     flex: 0 0 30%;
+    //     background-size: auto 100%;
+    //     background-position: center;
+    //     background-image: url('${props => props.img}');
+    // }
+    // & .project-text{
+    //     flex: 0 0 70%;
+    // }
+    // @media (max-width: 1300px) {
+    // flex-direction: column !important;
+    // }
+`;
+
 const Projects = () => {
     //projects
     const [projects] = useState([
@@ -197,6 +215,7 @@ const Projects = () => {
                 <AccordionButton className='project-btn' ><div className="project-highlight lt-flex-row"><p><b>{title}</b></p><p> — {brief}</p><AccordionIcon/></div></AccordionButton>
                 <AccordionPanel pb={4}>
                     
+                <Container img={image}>
                         <div className ='project-text'>
                             <p>{description}</p>
                             <ul className='sub-nav' style={{fontSize:'0.9em'}}>
@@ -225,6 +244,7 @@ const Projects = () => {
                 <AccordionButton className='project-btn' ><div className="project-highlight lt-flex-row"><p><b>{title}</b></p><p> — {brief}</p><AccordionIcon/></div></AccordionButton>
                 <AccordionPanel pb={4}>
                     
+<<<<<<< HEAD
                         <div className ='project-text'>
                             <p>{description}</p>
                             <ul className='sub-nav' style={{fontSize:'0.9em'}}>
@@ -239,6 +259,9 @@ const Projects = () => {
                             </ul>
                         </div>
                         
+=======
+                </Container>
+>>>>>>> parent of 8f20566 (removed redundencies)
                 </AccordionPanel>
                 </AccordionItem>
                 </div>
